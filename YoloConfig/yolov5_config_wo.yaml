@@ -1,0 +1,56 @@
+%YAML:1.0
+
+use_semantic_mask: 0  # 0 for false, 1 for true
+
+use_cuda: 1  # 0 for false, 1 for true
+
+# YOLOv5 type
+yolov5_type: YOLOv5L
+
+# image parameters
+# image_width: 640
+# image_height: 480
+
+# labels
+coco_names_file: /models/yolo/coco.names
+
+# parameters
+object_thickness: 0.30      # epsilon, default value = 0.30(m)
+far_away_thresh: 6.0        # filter far away pixels, default value = 6.0(m)
+removal_block_thresh: 1000  # area of image block, default value = 1000
+
+# sample setting
+num_grid_sample: 5
+
+# mask setting
+min_depth_change_rate: 0.15
+
+# box expansion setting
+dynamic_box_expansion_rate: 0.00  # default value = 0.30
+planar_box_expansion_rate:  0.20  # default value = 0.20
+
+# line intersection seting
+line_intersection_rate: 0.95  # default value = 0.95, must be less than 1.0
+
+# YOLOv5
+yolov5l_net_name: YOLOv5l
+yolov5l_model_file: /models/yolo/yolov5/yolov5l.onnx
+
+yolov5m_net_name: YOLOv5m
+yolov5m_model_file: /models/yolo/yolov5/yolov5m.onnx
+
+yolov5n_net_name: YOLOv5n
+yolov5n_model_file: /models/yolo/yolov5/yolov5n.onnx
+
+yolov5s_net_name: YOLOv5s
+yolov5s_model_file: /models/yolo/yolov5/yolov5s.onnx
+
+yolov5x_net_name: YOLOv5x
+yolov5x_model_file: /models/yolo/yolov5/yolov5x.onnx
+
+# YOLOv5 parameters
+yolov5_input_width: 640
+yolov5_input_height: 640
+yolov5_box_thresh: 0.25
+yolov5_confidence_thresh: 0.25
+yolov5_nms_thresh: 0.45
