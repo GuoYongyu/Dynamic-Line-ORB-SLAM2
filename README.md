@@ -81,7 +81,8 @@ We need to download pre-trained model parameters from YOLOv5: https://github.com
 The YOLOv5 version used in project is `v6.0`, other versions are available. Also, you can train your own model with other datasets (YOLOv5 used COCO). If you do like this, you need to change some configurations in some files under folder `YoloConfig`. Because new labels will affects some configuration files mainly `coco.names` at `YoloConfig/models/yolo/coco.names`.
 
 Due to using OpenCV to load YOLOv5, we need to transfer parameter files first. The transfered parameter files (YOLOv5-v6.0) can be downloaded from: https://drive.google.com/drive/folders/1iOTPI8JTHtWq36eB1UIR45s_s8N9qZuY?usp=drive_link
-You can refer to the tutorial to convert to other versions: https://blog.csdn.net/weixin_41311686/article/details/128421801
+
+You can refer to the tutorial to convert YOLOv5 with other versions: https://blog.csdn.net/weixin_41311686/article/details/128421801
 
 ## 2.2. Build
 
