@@ -18,7 +18,7 @@ Project uses the new thread and chrono functionalities of C++11.
 Project uses Pangolin for visualization and user interface. Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
 
 ## 1.3. Eigen
-Eigen's version here is `3.3.4`, which is needed by g2o. Perhaps version `3.1.0` is available too, but project did not try when delevoping.
+The version of Eigen needed by g2o here is `3.3.4`. Perhaps version `3.1.0` is available too, but project did not try when delevoping.
 
 ## 1.4. OpenCV4
 OpenCV is mainly used to process images and YOLOv5 in this project. Project uses `dnn` module in OpenCV to load YOLOv5, therefore, you need to download and install `OpenCV4`. In experiments, project used version `4.5`. You can download OpenCV4 at http://opencv.org.
@@ -59,6 +59,8 @@ or: https://blog.csdn.net/weixin_43850132/article/details/130367507
 
 ## 1.5. DBoW2 and g2o
 Both two libraries are used in ORB-SLAM2, but g2o was modified by ORB-SLAM2. Two libraries are compressed and updated at `Thirdparty`.
+
+Some codes in CMakeLists.txt is changed because project uses OpenCV4, so the original codes in ORB-SLAM2 is not available.
 
 # 2. Building
 
