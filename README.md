@@ -121,4 +121,4 @@ python associate.py PATH_TO_SEQUENCE/rgb.txt PATH_TO_SEQUENCE/depth.txt > associ
 
 - The semantic masks detection is referenced from Dynamic-VINS: https://github.com/HITSZ-NRSL/Dynamic-VINS, we modified the algorithm with RANSAC.
 - The line features process is referenced from: https://github.com/atlas-jj/ORB_Line_SLAM. This project only process line in Monocular SLAM, project refers to the methods used and transplant them to RGB-D SLAM.
-- The pangolin project used in our PC may be damaged, point & line features cannot be show properly, but the output is normal.
+- The pangolin project used in my PC may be damaged, point & line features cannot be shown properly, but the output is normal.
