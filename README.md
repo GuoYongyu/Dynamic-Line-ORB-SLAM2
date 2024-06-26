@@ -103,7 +103,7 @@ This will create libORB_SLAM2.so at `lib` folder and the executables `rgbd_tum`,
 # 3. Run
 
 - Download a sequence from http://vision.in.tum.de/data/datasets/rgbd-dataset/download and uncompress it.
-- Associate RGB images and depth images using the python script associate.py. We already provide associations for some of the sequences in Examples/RGB-D/associations/. You can generate your own associations file executing (`associate.py` is provided at home folder):
+- Associate RGB images and depth images using the python script associate.py. We already provide associations for some of the sequences in Examples/RGB-D/associations/. You can generate your own associations file executing (`associate.py` is provided at project's home folder):
 ```
 python associate.py PATH_TO_SEQUENCE/rgb.txt PATH_TO_SEQUENCE/depth.txt > associations.txt
 ```
